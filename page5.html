@@ -1,0 +1,31 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<h1> Cadastro do Cliente</h1>
+
+<form action="cliente.php" method="POST">
+	<label>Nome:</label> 
+	<input type="text" name="nome"> 
+	<label>Endereço:</label> 
+	<input type="text" name="endereço"> 
+	<label>Numero</label> 
+	<input type="text" name="numero">
+	<label>Bairro</label> 
+	<input type="text" name="bairro">
+	<label>Cidade</label> 
+	<input type="text" name="ciadade">
+	<select name="UF">
+	<option>UF</option>
+		<option value="RJ">RJ</option>
+		<option value="RJ">SP</option>
+</select>
+	<label>Telefone</label> 
+		<input type="text" name="telefone" placeholder="(00)00000-0000">
+	<input type="submit" name="Enviar" value="Enviar">
+	</form>
+</html>

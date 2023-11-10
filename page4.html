@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form action="" method="POST"> <!-- metodo get e usado para id, por exemplo acessar um banco-->
+		<label>Nome:</label>
+		<input type="text" name="nome">
+		<label>Endereço:</label>
+		<input type="text" name="endereço">
+		<fieldset>
+			<legend>Opções</legend>
+			<label> Opçao 1
+			<input type="radio" id="1" name="opçao"> <!-- se nao colocaar id da ruim-->
+		     <label> Opçao 2
+			<input type="radio" id="2" name="opçao">
+			  <label> Opçao 3
+			<input type="radio" id="3" name="opçao">
+		</fieldset>
+<select name="estados"> <!-- select e o drop-->
+		<option>Selecione</option>
+		<option value="RJ">RJ</option>
+		<option value="RJ">SP</option>
+</select>
+	<input type="reset" name=""> <!-- e para redefinir a opçoes--> 
+	<input type="submit" name="Enviar" value="Enviar">
+	</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<h1>Formulario (INPUTS)</h1> <!-- todo input tem um nome -->
+	<label>Seu Nome Completo:</label>
+	<input type="text" name="" size="60" placeholder="Digite seu nome aqui" value=""required=""><br>
+	<input type="checkbox" name="status"><label>Desativado</label> <!-- o que pode ser colocado em cada input-->
+	<input type="checkbox" name="status" checked="checked"><label>Padrao Ativado</label>
+	<input type="radio" name=""><label>Radio Botom</label>
+	<input type="radio" name="" checked="checked"><label>Radio Botom Padrao Ativo</label>
+
+	<fieldset>
+		<legend>Radio Boton em grupo</legend>
+		<input type="radio" name=""><label>Opção 1</label>
+		<input type="radio" name=""><label>Opção 2</label>
+	</fieldset>
+
+	<label>Senha:</label> <input type="password" name="">
+	<label>anexo:</label><input type="file" name=""><br><br>
+	<button type="submit">enviar</button>
+	<br><br>
+
+	<button type="button" onclick="alert('Ola Mundo!')">Click Me</button>
+	<br>
+
+</body>
+</html>
